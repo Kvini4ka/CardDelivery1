@@ -51,7 +51,7 @@ public class CardDeliveryTest {
         $("[data-test-id=city] input").setValue("но");
         $$(".menu-item__control").first().click();
         $("[data-test-id=date] input").sendKeys(Keys.CONTROL + "a");
-        $("[data-test-id=date] input").sendKeys(Keys.BACK_SPACE));
+        $("[data-test-id=date] input").sendKeys(Keys.BACK_SPACE);
         $("[data-test-id=date] input").setValue(planningDate);
         $("[data-test-id=name] input").setValue("Катина Катерина");
         $("[data-test-id=phone] input").setValue("+71300000000");
@@ -69,7 +69,7 @@ public class CardDeliveryTest {
         $("[data-test-id=city] input").setValue("но");
         $$(".menu-item__control").first().click();
         $("[data-test-id=date] input").sendKeys(Keys.CONTROL + "a");
-        $("[data-test-id=date] input").sendKeys(Keys.BACK_SPACE));
+        $("[data-test-id=date] input").sendKeys(Keys.BACK_SPACE);
         $("[data-test-id=date] input").setValue(planningDate);
         $("[data-test-id=name] input").setValue("Катина Катерина");
         $("[data-test-id=phone] input").setValue("+71300000000");
@@ -84,7 +84,7 @@ public class CardDeliveryTest {
 
         $("[data-test-id=city] input").setValue("Бобруйск");
         $("[data-test-id=date] input").sendKeys(Keys.CONTROL + "a");
-        $("[data-test-id=date] input").sendKeys(Keys.BACK_SPACE));
+        $("[data-test-id=date] input").sendKeys(Keys.BACK_SPACE);
         $("[data-test-id=date] input").setValue(dateForTest(4));
         $("[data-test-id=name] input").setValue("Катина Катерина");
         $("[data-test-id=phone] input").setValue("+791300000000");
@@ -99,7 +99,7 @@ public class CardDeliveryTest {
 
         $("[data-test-id=city] input").setValue("Омск");
         $("[data-test-id=date] input").sendKeys(Keys.CONTROL + "a");
-        $("[data-test-id=date] input").sendKeys(Keys.BACK_SPACE));
+        $("[data-test-id=date] input").sendKeys(Keys.BACK_SPACE);
         $("[data-test-id=date] input").setValue(dateForTest(4));
         $("[data-test-id=name] input").setValue("Katina Kate");
         $("[data-test-id=phone] input").setValue("+791300000000");
@@ -114,7 +114,7 @@ public class CardDeliveryTest {
 
         $("[data-test-id=city] input").setValue("Омск");
         $("[data-test-id=date] input").sendKeys(Keys.CONTROL + "a");
-        $("[data-test-id=date] input").sendKeys(Keys.BACK_SPACE));
+        $("[data-test-id=date] input").sendKeys(Keys.BACK_SPACE);
         $("[data-test-id=date] input").setValue(dateForTest(4));
         $("[data-test-id=name] input").setValue("Катина Катерина");
         $("[data-test-id=phone] input").setValue("+7913000000");
@@ -130,7 +130,7 @@ public class CardDeliveryTest {
 
         $("[data-test-id=city] input").setValue("Омск");
         $("[data-test-id=date] input").sendKeys(Keys.CONTROL + "a");
-        $("[data-test-id=date] input").sendKeys(Keys.BACK_SPACE));
+        $("[data-test-id=date] input").sendKeys(Keys.BACK_SPACE);
         $("[data-test-id=date] input").setValue(dateForTest(4));
         $("[data-test-id=name] input").setValue("Катина Катерина");
         $("[data-test-id=phone] input").setValue("+79130000000");
@@ -144,7 +144,7 @@ public class CardDeliveryTest {
 
         $("[data-test-id=city] input").setValue("");
         $("[data-test-id=date] input").sendKeys(Keys.CONTROL + "a");
-        $("[data-test-id=date] input").sendKeys(Keys.BACK_SPACE));
+        $("[data-test-id=date] input").sendKeys(Keys.BACK_SPACE);
         $("[data-test-id=date] input").setValue(dateForTest(4));
         $("[data-test-id=name] input").setValue("Катина Катерина");
         $("[data-test-id=phone] input").setValue("+791300000000");
@@ -160,7 +160,7 @@ public class CardDeliveryTest {
 
         $("[data-test-id=city] input").setValue("Омск");
         $("[data-test-id=date] input").sendKeys(Keys.CONTROL + "a");
-        $("[data-test-id=date] input").sendKeys(Keys.BACK_SPACE));
+        $("[data-test-id=date] input").sendKeys(Keys.BACK_SPACE);
         $("[data-test-id=name] input").setValue("Катина Катерина");
         $("[data-test-id=phone] input").setValue("+79130000000");
         $("[data-test-id=agreement] span").click();
@@ -175,7 +175,7 @@ public class CardDeliveryTest {
 
         $("[data-test-id=city] input").setValue("Омск");
         $("[data-test-id=date] input").sendKeys(Keys.CONTROL + "a");
-        $("[data-test-id=date] input").sendKeys(Keys.BACK_SPACE));
+        $("[data-test-id=date] input").sendKeys(Keys.BACK_SPACE);
         $("[data-test-id=date] input").setValue(dateForTest(4));
         $("[data-test-id=name] input").setValue("");
         $("[data-test-id=phone] input").setValue("+791300000000");
@@ -190,7 +190,7 @@ public class CardDeliveryTest {
 
         $("[data-test-id=city] input").setValue("Омск");
         $("[data-test-id=date] input").sendKeys(Keys.CONTROL + "a");
-        $("[data-test-id=date] input").sendKeys(Keys.BACK_SPACE));
+        $("[data-test-id=date] input").sendKeys(Keys.BACK_SPACE);
         $("[data-test-id=date] input").setValue(dateForTest(4));
         $("[data-test-id=name] input").setValue("Катерина Катина");
         $("[data-test-id=phone] input").setValue("");
